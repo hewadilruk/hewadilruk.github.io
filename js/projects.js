@@ -19,21 +19,10 @@
  */
 const projects = [
   {
-    title: "Project title (placeholder)",
-    category: "Computer Networking",
-    description: "Replace this with a short description of a network you designed, configured, or simulated.",
-    technologies: ["Technology A", "Technology B"],
-    repo: "",
-    image: "",
-    imageAlt: "",
-    docs: "",
-    placeholder: true
-  },
-  {
-    title: "Project title (placeholder)",
-    category: "Linux & Windows Server Administration",
-    description: "Replace this with a short description of a server setup or administration task you completed.",
-    technologies: ["Technology A", "Technology B"],
+    title: "TEST-PROJECT",
+    category: "TEST-CATEGORY",
+    description: "TEST-DESCRIPTION.",
+    technologies: ["TEST ABC", "TEST XYZ"],
     repo: "",
     image: "",
     imageAlt: "",

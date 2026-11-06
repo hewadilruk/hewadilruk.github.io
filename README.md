@@ -1,1 +1,2 @@
-2026 @hewadilruk
+© 2026 Dilruk Malinga
+Github Page code.
