@@ -19,5 +19,13 @@ const ideas = [
     date: "2026-11-06",
     description: "An idea for monitoring network activity using open-source tools.",
     link: ""
+  },
+
+  {
+    id: 2,
+    title: "TEST-IDEA",
+    date: "2026-11-06",
+    description: "TEST_DESCRIPTION",
+    link: ""
   }
 ];
