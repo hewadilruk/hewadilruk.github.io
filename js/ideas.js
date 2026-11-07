@@ -5,6 +5,6 @@ const ideas = [
     title: "TEST-IDEA",
     date: "2026-11-06",
     description: "TEST-DESCRIPTION",
-    link: ""
+    link: "http://example.com",
   }
 ];

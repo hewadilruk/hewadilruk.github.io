@@ -6,13 +6,13 @@
   <title>Dilruk Malinga | Computer Networking Undergraduate</title>
   <meta name="description" content="Personal portfolio of Dilruk Malinga, an undergraduate in Computer Networking interested in server administration, network programming, and network infrastructure.">
   <link rel="canonical" href="https://hewadilruk.github.io/">
-  <meta name="theme-color" content="#101713">
+  <meta name="theme-color" content="#faf8f5">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Dilruk Malinga | Computer Networking Undergraduate">
   <meta property="og:description" content="Personal portfolio of Dilruk Malinga, an undergraduate in Computer Networking interested in server administration, network programming, and network infrastructure.">
   <meta property="og:url" content="https://hewadilruk.github.io/">
-  <meta property="og:image" content="https://hewadilruk.github.io/assets/profile.jpeg">
+  <meta property="og:image" content="https://hewadilruk.github.io/assets/profile.png">
   <meta property="og:image:alt" content="Portrait of Dilruk Malinga wearing glasses and a navy shirt">
 
   <link rel="icon" href="data:,">
@@ -26,12 +26,15 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="site-name" href="#about">HOME</a>
+      <a class="site-name" href="#about" aria-label="Dilruk Malinga, home">
+        <span class="site-mark" aria-hidden="true">D</span>
+        <span class="site-name-text">Dilruk Malinga<span class="site-name-dot">.</span></span>
+      </a>
       <nav aria-label="Primary">
         <ul class="nav-list">
           <li><a href="#about">About</a></li>
-          <li><a href="#ideas">Ideas</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#ideas">Ideas</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -42,55 +45,72 @@
     <section id="about" class="section intro" aria-labelledby="about-heading">
       <div class="container intro-grid">
         <div class="intro-text">
-          <p class="label">WHO I AM</p>
-          <h1 id="about-heading">Hello there, I’m <span class="name-highlight">Dilruk Malinga.</span></h1>
-          <p class="subheading">An Undergraduate in Computer Networking.</p>
-          <figure class="portrait-feature">
-            <img class="portrait" src="assets/profile.jpeg" width="1254" height="1254"
-                 alt="Portrait of Dilruk Malinga, wearing glasses and a navy collared shirt, in front of a light wall.">
-            <blockquote>When Computers Need to talk</blockquote>
-          </figure>
-          <p>I have a tremendous interest in networking and related technologies, especially
+          <p class="label"><span class="label-mark" aria-hidden="true"></span> Don't you know me? </p>
+          <h1 id="about-heading">Building the connections behind <span class="name-highlight">what’s next.</span></h1>
+          <p class="subheading">I’m Dilruk Malinga, an undergraduate in Computer Networking.</p>
+          <p class="intro-description">From servers and routing to the protocols that tie everything together, I’m curious about what happens behind every successful connection.</p>
+          <p class="about-copy">I have a tremendous interest in networking and related technologies, especially
             <span class="em">Server Administration</span>, <span class="em">Network Programming</span>,
             and <span class="em">Network System Implementations</span>.
           I enjoy discovering how systems work, troubleshooting technical challenges, and exploring
-            new technologies. I believe in continuously updating my knowledge and developing practical
-            skills through experimentation</p>
+            new technologies. I’m always learning and building practical skills through experimentation.</p>
           <div class="intro-actions">
-            <a class="button button-primary" href="#projects">Explore my projects</a>
-            <a class="button button-secondary" href="#contact">Get in touch</a>
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Let’s connect <span aria-hidden="true">→</span></a>
           </div>
         </div>
+        <figure class="portrait-feature">
+          <img class="portrait" src="assets/profile.png" width="1254" height="1254"
+               alt="Portrait of Dilruk Malinga, wearing glasses and a navy collared shirt, in front of a light wall.">
+          <figcaption class="portrait-caption"><span class="caption-dot" aria-hidden="true"></span> When Computers Need to Talk.</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section id="ideas" class="section" aria-labelledby="ideas-heading">
+    <section id="projects" class="section projects-section" aria-labelledby="projects-heading">
       <div class="container">
-        <h2 id="ideas-heading">Latest Ideas</h2>
-        <p class="section-sub">Thoughts, experiments, and things I’d like to explore.</p>
-        <div id="ideas-list" class="ideas-grid"></div>
-      </div>
-    </section>
-
-    <section id="projects" class="section" aria-labelledby="projects-heading">
-      <div class="container">
-        <h2 id="projects-heading">Projects</h2>
-        <p class="section-sub">A selection of things I’ve built, configured, and experimented with.</p>
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">NETWORK BUILDS / PROJECT LOG</p>
+            <h2 id="projects-heading">Projects<span class="heading-dot">.</span></h2>
+            <p class="section-sub">A selection of things I’ve built, configured, and experimented with.</p>
+          </div>
+          <span class="section-index" aria-hidden="true">01 / 02</span>
+        </div>
         <div id="projects-list" class="projects-list"></div>
       </div>
     </section>
 
-    <section id="contact" class="section" aria-labelledby="contact-heading">
+    <section id="ideas" class="section ideas-section" aria-labelledby="ideas-heading">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">PACKETS FROM THE LAB</p>
+            <h2 id="ideas-heading">Ideas in motion<span class="heading-dot">.</span></h2>
+            <p class="section-sub">Thoughts, experiments, and things I’d like to explore.</p>
+          </div>
+          <span class="section-index" aria-hidden="true">02 / 02</span>
+        </div>
+        <div id="ideas-list" class="ideas-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
       <div class="container contact">
-        <h2 id="contact-heading">Get in Touch</h2>
-        <p class="section-sub">I’m always interested in learning, exchanging ideas, and connecting with people who share an interest in technology.</p>
-        <ul class="contact-list">
-          <li><span>GitHub</span><a href="https://github.com/hewadilruk" target="_blank" rel="noopener noreferrer">github.com/hewadilruk</a></li>
-          <!-- TODO: replace with your real LinkedIn URL -->
-          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/dilruk-malinga-67aa99352" target="_blank" rel="noopener noreferrer">linkedin.com/dilrukmalinga</a></li>
-          <!-- TODO: replace with your real email address (both href and text) -->
-          <li><span>Email</span><a href="mailto:HewaDilruk@outlook.com">outlook.com/hewadilruk</a></li>
-        </ul>
+        <div class="contact-copy">
+          <p class="section-kicker">INCOMING CONNECTION</p>
+          <h2 id="contact-heading">Need to connect?<br><span>Send a TCP message.</span></h2>
+          <p class="section-sub">Have a question, project, or idea to exchange? Send a note and let’s start a conversation.</p>
+        </div>
+        <div class="contact-details">
+          <a class="contact-email" href="mailto:HewaDilruk@outlook.com">Open a connection <span aria-hidden="true">↗</span></a>
+          <p class="connection-note"><span aria-hidden="true">TCP</span> Email handshake, ready when you are.</p>
+          <ul class="contact-list">
+            <li><span>GitHub</span><a href="https://github.com/hewadilruk" target="_blank" rel="noopener noreferrer">github.com/hewadilruk <span aria-hidden="true">↗</span></a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/dilruk-malinga-67aa99352" target="_blank" rel="noopener noreferrer">linkedin.com/in/dilruk-malinga <span aria-hidden="true">↗</span></a></li>
+            <li><span>Email</span><a href="mailto:HewaDilruk@outlook.com">HewaDilruk@outlook.com <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
@@ -98,7 +118,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© 2026 Dilruk Malinga</p>
-      <p>Built with curiosity.</p>
+      <a href="#about">Back to top ↑</a>
     </div>
   </footer>
 </body>
